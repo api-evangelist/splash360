@@ -1,0 +1,47 @@
+aid: splash360
+name: Splash 360
+description: 'French vendor of point-of-sale and management software for collective catering — company
+  restaurants, school and institutional canteens. The product line covers a smart till, self-service ordering
+  kiosks and kiosk software, Wifi Order, a Kitchen Display System, a back-office management layer, a coin
+  handler, and loyalty through a YouFid integration. NO PUBLIC API SURFACE: the company sells and deploys
+  into catering operators directly, and publishes no developer portal, API documentation or machine-readable
+  contract. That is the absence of a PUBLIC interface, not the absence of APIs — a till, a kiosk and a
+  kitchen display exchanging orders are API-driven by construction, but those interfaces reach customers
+  through deployment and integration work rather than a public developer program.'
+url: https://raw.githubusercontent.com/api-evangelist/splash360/refs/heads/main/apis.yml
+created: '2026-08-19'
+modified: '2026-08-19'
+specificationVersion: '0.23'
+tags:
+- Point of Sale
+- Collective Catering
+- Food Service
+- Restaurant Technology
+- Kiosk
+- Kitchen Display
+- Loyalty
+- Back Office
+- France
+- Hospitality
+apis: []
+common:
+- type: Website
+  url: https://splash360.fr
+- type: Blog
+  url: https://splash360.fr/blog
+maintainers:
+- FN: Splash 360
+  url: https://splash360.fr
+x-evidence:
+  round: '2026-08-19'
+  admitted_from: Add-API parked queue, submission splash-360-fdc34922, gate confidence 3, reason no_consumable_surface.
+  why_listed_not_dropped: no_consumable_surface is not sufficient grounds to drop. The question is whether
+    this is a real company on a domain it owns, and it is. splash360.fr returns 200 with 223,583b and
+    a real product site; an invented path returns a genuine 404, so the host discriminates. A valid company
+    with no public API gets listed and scores low — the low score is the point, and it is what gives the
+    vendor something to act on.
+  dev_surface_probed_2026_08_19: /api, /developers, /developpeurs, /docs, /openapi.json, /apis.json and
+    /llms.txt all return 404. Probed with a browser user-agent, so these are real absences and not a bot-protection
+    artifact masking them.
+  wording: Recorded as no PUBLIC API surface rather than no APIs. Tills, kiosks and kitchen displays exchanging
+    orders are API-driven by construction; those interfaces simply do not reach a public developer program.
