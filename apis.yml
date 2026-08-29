@@ -9,6 +9,17 @@ description: 'French vendor of point-of-sale and management software for collect
   kitchen display exchanging orders are API-driven by construction, but those interfaces reach customers
   through deployment and integration work rather than a public developer program.'
 url: https://raw.githubusercontent.com/api-evangelist/splash360/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 created: '2026-08-19'
 modified: '2026-08-19'
 specificationVersion: '0.23'
