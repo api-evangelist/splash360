@@ -2,6 +2,13 @@
   "repo": "splash360",
   "feeds": [
     {
+      "source": "https://splash360.fr/feed/",
+      "feed_url": "https://splash360.fr/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://splash360.fr",
       "feed_url": "https://splash360.fr/feed/",
       "title": "",
@@ -9,6 +16,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-08-22T20:20:02Z"
+  "post_count": 2,
+  "fetched": "2026-08-30T22:33:40Z"
 }
